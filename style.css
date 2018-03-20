@@ -264,8 +264,54 @@ footer {
     letter-spacing: normal;
     text-transform: none;
 }
+/**ABOUT**/
 
+article {
+    width: 50%;
+    text-align: left;
+    margin: 0 72px;
+}
 
+article p {
+    font-size: 20px;
+    text-transform: none;
+    font-weight: 300;
+    color: #2c2c2c;
+    letter-spacing: normal;
+    line-height: 1.5;
+}
+
+h6 {
+    padding-top: 50px;
+    font-size: 25px;
+    color: #30237b;
+}
+
+li {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 2.5;
+    list-style: none;
+}
+
+ p.education  {
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: none;
+    color: #2c2c2c;
+    letter-spacing: normal;
+    line-height: 2.5;
+}
+.row {
+    flex-flow: row;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.column {
+    width: 100%;
+}
 /**PROJECTS**/
 
 /**Vacabo**/
